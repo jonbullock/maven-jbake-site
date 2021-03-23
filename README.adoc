@@ -1,0 +1,6 @@
+= maven-jbake-site
+Jonathan Bullock
+2021-03-23
+
+Example Maven project that utilises the https://github.com/jbake-org/jbake-maven-plugin/[jbake-maven-plugin].
+
