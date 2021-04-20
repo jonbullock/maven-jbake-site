@@ -14,7 +14,7 @@
 			<plugin>
 				<groupId>org.jbake</groupId>
 				<artifactId>jbake-maven-plugin</artifactId>
-				<version>0.3.3</version>
+				<version>0.3.4</version>
 				<configuration>
 				    <!--
 				    <inputDirectory>${project.basedir}/src/main/resources</inputDirectory>
@@ -35,45 +35,45 @@
 					<dependency>
 			            <groupId>org.asciidoctor</groupId>
 			            <artifactId>asciidoctorj</artifactId>
-			            <version>2.2.0</version>
+			            <version>2.4.3</version>
 			        </dependency>
 
 			        <!-- Markdown content support -->
 					<dependency>
 						<groupId>com.vladsch.flexmark</groupId>
 						<artifactId>flexmark</artifactId>
-						<version>0.61.0</version>
+						<version>0.62.2</version>
 					</dependency>
 					<dependency>
 						<groupId>com.vladsch.flexmark</groupId>
 						<artifactId>flexmark-profile-pegdown</artifactId>
-						<version>0.61.0</version>
+						<version>0.62.2</version>
 					</dependency>
 
 			        <!-- Freemarker template support -->
 			        <dependency>
             			<groupId>org.freemarker</groupId>
             			<artifactId>freemarker</artifactId>
-            			<version>2.3.30</version>
+            			<version>2.3.31</version>
         			</dependency>
 
         			<!-- Groovy template support -->
         			<!--<dependency>
 					    <groupId>org.codehaus.groovy</groupId>
 					    <artifactId>groovy</artifactId>
-					    <version>3.0.2</version>
+					    <version>3.0.7</version>
 					</dependency>
 					<dependency>
 					    <groupId>org.codehaus.groovy</groupId>
 					    <artifactId>groovy-templates</artifactId>
-					    <version>3.0.2</version>
+					    <version>3.0.7</version>
 					</dependency>-->
 
 					<!-- Thymeleaf template support -->
 					<!--<dependency>
 						<groupId>org.thymeleaf</groupId>
 						<artifactId>thymeleaf</artifactId>
-						<version>3.0.11.RELEASE</version>
+						<version>3.0.12.RELEASE</version>
 					</dependency>-->
 
 					<!-- Jade4J template support -->
